@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "reflex-clerk-demo"
+version = "0.1.0"
+description = ""
+authors = ["neka-nat <nekanat.stock@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+reflex = "^0.5.4"
+authlib = "^1.3.1"
+python-dotenv = "^1.0.1"
+reflex-clerk = {git = "https://github.com/kroo/reflex-clerk.git"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
